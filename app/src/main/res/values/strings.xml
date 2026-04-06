@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MELI</string>
+
+    <!-- Main Screen -->
+    <string name="search_placeholder">Buscar noticias…</string>
+    <string name="no_results">No se encontraron resultados para \'%1$s\'</string>
+    <string name="error_loading_news">Error al cargar las noticias</string>
+
+    <!-- Detail Screen -->
+    <string name="detail_title">Detalle de Noticia</string>
+    <string name="back_button_desc">Atrás</string>
+    <string name="error_loading_detail">Error al cargar el detalle</string>
+    <string name="author_prefix">Por: %1$s</string>
+    <string name="source_prefix">Fuente: %1$s</string>
+    <string name="last_updated_prefix">Última actualización: %1$s</string>
 </resources>

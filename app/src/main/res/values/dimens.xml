@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Common dimensions -->
+    <dimen name="padding_tiny">4.dp</dimen>
+    <dimen name="padding_small">8.dp</dimen>
+    <dimen name="padding_medium">16.dp</dimen>
+    <dimen name="spacing_tiny">4.dp</dimen>
+    <dimen name="spacing_small">8.dp</dimen>
+    <dimen name="spacing_medium">12.dp</dimen>
+    <dimen name="spacing_large">16.dp</dimen>
+
+    <!-- Main Screen specific -->
+    <dimen name="app_bar_elevation">3.dp</dimen>
+    <dimen name="card_elevation">4.dp</dimen>
+    <dimen name="card_corner_radius">8.dp</dimen>
+    <dimen name="article_item_height">100.dp</dimen>
+    <dimen name="article_image_width">120.dp</dimen>
+
+    <!-- Detail Screen specific -->
+    <dimen name="detail_image_height">250.dp</dimen>
+</resources>

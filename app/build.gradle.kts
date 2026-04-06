@@ -24,12 +24,16 @@ android {
     }
 
     buildTypes {
+        debug {
+            buildConfigField("String", "BASE_URL", "\"https://api.spaceflightnewsapi.net/v4/\"")
+        }
         release {
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
             )
+            buildConfigField("String", "BASE_URL", "\"https://api.spaceflightnewsapi.net/v4/\"")
         }
     }
     compileOptions {
@@ -38,6 +42,10 @@ android {
     }
     buildFeatures {
         compose = true
+        buildConfig = true
+    }
+    configurations.all {
+        exclude(group = "xmlpull", module = "xmlpull")
     }
 }
 
@@ -65,6 +73,7 @@ dependencies {
     // Local DB (Room)
     implementation(libs.room.runtime)
     implementation(libs.room.ktx)
+    implementation(libs.androidx.navigation.safe.args.generator)
     ksp(libs.room.compiler)
 
     implementation(libs.navigation.compose)

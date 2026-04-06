@@ -57,6 +57,12 @@ coil-network = { group = "io.coil-kt.coil3", name = "coil-network-okhttp", versi
 timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
 androidx-navigation-safe-args-generator = { group = "androidx.navigation", name = "navigation-safe-args-generator", version.ref = "navigationSafeArgsGenerator" }
 
+# --- Testing ---
+mockk = { group = "io.mockk", name = "mockk", version = "1.13.13" }
+mockk-instrumented = { group = "io.mockk", name = "mockk-android", version = "1.13.13" }
+kotlinx-coroutines-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version = "1.9.0" }
+turbine = { group = "app.cash.turbine", name = "turbine", version = "1.1.0" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

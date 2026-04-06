@@ -49,6 +49,3 @@ The app consumes the **SpaceFlight News API (v4)**.
 The project includes:
 - **Unit Tests**: Testing Mappers, Repositories, and ViewModels using **MockK** and **Turbine**.
 - **UI Tests**: Instrumented tests using the **Compose Test Rule** to verify screen states (Success, Loading, Error) and user interactions.
-
----
-Developed by **Lucas Zacarias** as part of a technical evaluation.
